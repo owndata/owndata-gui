@@ -1,0 +1,3 @@
+[submodule "owndata"]
+	path = owndata
+	url = https://github.com/owndata/owndata

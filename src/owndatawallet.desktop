@@ -1,0 +1,10 @@
+[Desktop Entry]
+Encoding=UTF-8
+Name=Owndata Wallet
+Comment=Owndata wallet
+Exec=owndatawallet %U
+Terminal=false
+Type=Application
+Icon=owndata
+MimeType=x-scheme-handler/owndata;
+Categories=Office;Finance;

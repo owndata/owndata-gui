@@ -1,0 +1,4 @@
+set(CN_PROJECT_NAME "OwndataWallet")
+set(CN_CURRENCY_DISPLAY_NAME "OwnData")
+set(CN_CURRENCY_TICKER "OWN")
+set(CN_VERSION 1.0.0)

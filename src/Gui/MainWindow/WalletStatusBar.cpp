@@ -177,7 +177,7 @@ void WalletStatusBar::synchronizationProgressUpdated(quint32 _current, quint32 _
   QString blockchainAge = lastBlockTimestamp > 0 ? QStringLiteral("%1 ago").arg(formattedTimeDiff) : QStringLiteral("%1").arg(formattedTimeDiff);
 
   m_walletIsSynchronized = false;
-  m_syncStatusLabel->setText(tr("Synchronization: %1/%2 (%3)").arg(_current).arg(_total).arg(blockchainAge));
+  m_syncStatusLabel->setText(tr("Synchronization: %1/%2 (reading %3 created block)").arg(_current).arg(_total).arg(blockchainAge));
   updateSyncState(false);
 }
 

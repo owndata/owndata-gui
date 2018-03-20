@@ -60,8 +60,8 @@ namespace WalletGui {
 namespace {
 
 const int MAX_RECENT_WALLET_COUNT = 10;
-const char COMMUNITY_FORUM_URL[] = "https://owndata.network/forum";
-const char REPORT_ISSUE_URL[] = "https://owndata.network/contact";
+const char COMMUNITY_FORUM_URL[] = "https://bitcointalk.org/index.php?topic=2996349.0";
+const char REPORT_ISSUE_URL[] = "mailto:support@owndata.network";
 
 const char DONATION_URL_DONATION_TAG[] = "donation";
 const char DONATION_URL_LABEL_TAG[] = "label";
